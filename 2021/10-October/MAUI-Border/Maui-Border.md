@@ -12,7 +12,11 @@ Con la Preview 9 de .NET MAUI llega un nuevo control, Border, con bastantes más
 
 ## Nuevo control Border
 
-¿Qué te parece esta novedad en .NET MAUI?. Recuerda, puedes usar los comentarios de la entrada para dejar tu feedback.
+El nuevo control Border, similar en concepto al Frame, es un control que permite un único elemento como contenido pero que puede ser cualquier cosa. Es decir, podremos aplicar un Border desde a un sencillo Label a un Grid con un layout complejo.
+
+![.NET MAUI Border](maui-border.gif)
+
+_¿Qué te parece esta novedad en .NET MAUI?_. Recuerda, puedes usar los comentarios de la entrada para dejar tu feedback.
 
 ## Más información
 
