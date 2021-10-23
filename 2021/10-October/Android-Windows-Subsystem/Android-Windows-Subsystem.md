@@ -26,6 +26,8 @@ Tras tener esta versión de Windows es hora de instalar el Windows Subsystem for
 
 Este paso es sencillo, solo hay que entrar en la Store, instalar y reiniciar.
 
+![Instalar WSA](wsa-install.jpg)
+
 ## Hora de desarrollar!
 
 Dentro del WSA App encontrarás bastantes opciones.
@@ -37,6 +39,18 @@ Necesitamos cambiar varias opciones:
 * Activar el **modo de desarrollador**.
 
 **NOTA:** Al activar el modo de desarrollador veremos las instrucciones necesarias para conectar por adb.
+
+Con el subsistema Windows para Android en ejecución podemos usar **127.0.0.1:58526** para conectar y hacer debugging.
+
+```
+adb connect 127.0.0.1:58526
+```
+
+**NOTA:** Lo visto anterior es la forma por defecto para conectar con WSA pero puedes encontrar más opciones en la documentación oficial.
+
+Una vez conectado vía adb, sencillamente aparecerá la opción de WSA en Visual Studio.
+
+![Visual Studio](wsa-vs.png)
 
 ## Más información 
 
